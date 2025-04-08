@@ -14,7 +14,7 @@ fun main() = with(System.`in`.bufferedReader()) {
     bw.flush()
 }
 
-fun backTracking(k: Int, n: Int, m: Int) {
+private fun backTracking(k: Int, n: Int, m: Int) {
     if (k == m + 1) {
         for (i in 1..m) bw.write("${arr[i]} ")
         bw.write("\n")
