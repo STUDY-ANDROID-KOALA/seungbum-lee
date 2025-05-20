@@ -20,7 +20,7 @@ package week7
 
 private val bw = System.`out`.bufferedWriter()
 
-fun main() = with(System.`in`.bufferedReader()) {
+private fun main() = with(System.`in`.bufferedReader()) {
     val (n, k) = readLine().split(" ").map { it.toInt() }
     val w = Array(n + 1) { 0 }
     val v = Array(n + 1) { 0 }
